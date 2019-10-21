@@ -109,7 +109,7 @@ header {
  * Navigation
  */
 
-nav {
+header nav {
   background-color: #252831;
   height: 63px;
   line-height: 63px;
@@ -118,14 +118,20 @@ nav {
   width: 100%;
 }
 
-nav h1 {
+header nav h1 {
   margin: auto;
 }
 
-nav h1 a {
+header nav h1 a {
   color: #fff;
   font-size: 25px;
   font-weight: 400;
+}
+
+.breadcrumb-nav {
+  position: sticky;
+  top: 65px;
+  z-index: 999;
 }
 
 #breadcrumb {
@@ -135,9 +141,6 @@ nav h1 a {
   line-height: 45px;
   list-style: none;
   padding: 0 15px;
-  position: sticky;
-  top: 65px;
-  z-index: 999;
 }
 
 /* Display list items side by side */
